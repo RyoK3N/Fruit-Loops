@@ -1,0 +1,7 @@
+pygame
+scipy
+matplotlib 
+pandas 
+numpy 
+opencv-python
+ipykernel
