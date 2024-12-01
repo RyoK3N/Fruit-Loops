@@ -157,7 +157,3 @@ def plot_cycles_with_perimeters(cycles, label_prefix='Cycle'):
         # Add perimeter label at the center of the cycle
         centroid = np.mean(cycle, axis=0)  # Get the centroid of the cycle to place the label
         plt.text(centroid[0], centroid[1], f'{perimeter:.2f}', color=color, fontsize=10, ha='center', va='center')
-
-
-
-
